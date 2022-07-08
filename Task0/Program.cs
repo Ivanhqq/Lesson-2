@@ -7,6 +7,8 @@
 //4 -> 16
 //-3 -> 9
 //-7 -> 49
+
+Console.Clear ();
 Console.WriteLine("ВВеди целое число и получишь его квадрат:");
 int num = Convert.ToInt32(Console.ReadLine());
 int res = num * num;
