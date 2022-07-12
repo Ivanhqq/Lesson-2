@@ -11,8 +11,8 @@
 Console.Clear ();
 Console.WriteLine("ВВеди целое число и получишь его квадрат:");
 int num = Convert.ToInt32(Console.ReadLine());
-int res = num * num;
-Console.WriteLine($"Квадрат числа {num} = {res}");
+int res = num % 100;
+Console.WriteLine($"{res}");
 
 
 
